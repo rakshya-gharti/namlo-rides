@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { fetchRideHistory } from "../Services/mockApi";
 import { useNavigate } from "react-router-dom";
+import { fetchRideHistory } from "../Services/mockApi";
 
 export default function History() {
   const [rides, setRides] = useState([]);

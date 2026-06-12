@@ -2,8 +2,8 @@ import { Route, Routes } from "react-router-dom";
 import DriverDashboard from "../Pages/DriverDashboard";
 import History from "../Pages/History";
 import Login from "../Pages/Login";
-import RiderDashboard from "../Pages/RiderDashboard";
 import RoleSelector from "../Pages/RoleSelector";
+import RiderDashboard from "../Pages/RiderDashboard";
 
 
 export default function AppRoutes() {

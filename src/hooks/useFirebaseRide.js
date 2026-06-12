@@ -1,6 +1,6 @@
 import { useEffect, useCallback } from "react";
 import { ref, set, onValue, off } from "firebase/database";
-import { db } from "../services/firebase";
+import { db } from "../Services/firebase";
 
 const RIDE_REF = "currentRide";
 

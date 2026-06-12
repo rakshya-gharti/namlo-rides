@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fetchRideHistory } from "../services/mockApi";
+import { fetchRideHistory } from "../Services/mockApi";
 import { useNavigate } from "react-router-dom";
 
 export default function History() {
